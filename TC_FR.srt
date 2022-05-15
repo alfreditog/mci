@@ -1,0 +1,138 @@
+﻿1
+00:00:00,000 --> 00:00:00,500
+Tutoriel Pages par Alfredo Garcia
+
+2
+00:00:00,500 --> 00:00:02,000
+Bienvenus a cet tutoriel de Pages
+
+3
+00:00:02,000 --> 00:00:07,420
+Nous allons voir dans ce logiciel comment insérer un
+sommaire automatique, Nous avons déjà un texte sur Quebec
+
+4
+00:00:07,420 --> 00:00:13,600
+Pour commencer, nous insérons le numéro de
+page, ainsi nous savons sur quelle page nous sommes
+
+5
+00:00:13,600 --> 00:00:18,140
+On souligne le premier titre qui est "Tourisme au Quebec"
+
+6
+00:00:18,140 --> 00:00:22,420
+Dans l’onglet "Texte" a droite, nous allons cliquer
+sur ce menu qui affichera tous les styles disponibles
+
+7
+00:00:22,420 --> 00:00:22,440
+On va choisir "Titre"
+Dans l’onglet "Texte" a droite, nous allons cliquer
+sur ce menu qui affichera tous les styles disponibles
+
+8
+00:00:22,440 --> 00:00:24,320
+On va choisir "Titre"
+
+9
+00:00:24,940 --> 00:00:30,200
+Pour le texte "1. Saguenay" on va le mettre en "Titre"
+
+10
+00:00:32,400 --> 00:00:36,640
+Pour le texte "Description" on va le mettre en "Sous-titre"
+
+11
+00:00:40,040 --> 00:00:46,520
+A continuation on va mettre "1.1 Lac Saint-Jean" en  "Titre 2
+
+12
+00:00:47,300 --> 00:00:59,040
+Et "1.1.1. Val-Jalbert",
+"1.1.2 Véloroutes" et "1.1.3 Zoo" en "Titre 3"
+
+13
+00:01:13,880 --> 00:01:23,560
+vous pouvez modifier le niveau
+de retrait du texte désiré au besoin
+
+14
+00:01:24,880 --> 00:01:36,660
+Ici on peut modifier la police, la taille, entre
+autres options, on ajoute les styles selon votre besoin.
+
+15
+00:01:39,080 --> 00:01:46,880
+On insère un saut de page pour le reste du document
+
+16
+00:01:48,760 --> 00:01:55,480
+On mettre "2. Abitibi" en "Titre"
+
+17
+00:01:57,420 --> 00:02:07,100
+A continuation on mettre "2.1 Anicinabek",
+"2.2. Obadjiwan" et "2.3 Festivals" en "Titre 2"
+
+18
+00:02:10,960 --> 00:02:18,180
+Et on modifie le niveau de retrait du texte désiré au besoin
+
+19
+00:02:22,620 --> 00:02:28,380
+Maintenant pour insérer la table
+des matières on va cliquer au début du document
+
+20
+00:02:28,380 --> 00:02:32,720
+Et après on clique sur l’option Insérer - Saut de page
+
+21
+00:02:32,720 --> 00:02:39,140
+On va cliquer dans la place ou
+on va insérer la table de matières
+
+22
+00:02:39,140 --> 00:02:45,880
+Pour la table de matières on va cliquer sur
+le menu Insérer - Table des matières - Document
+
+23
+00:02:48,400 --> 00:02:59,520
+Au début le logiciel va nous montrer
+simplement les titres qui sont mis dans la table des matières
+
+24
+00:03:05,540 --> 00:03:13,940
+Pour modifier ça, on va cliquer sur un titre de la table de matières
+
+25
+00:03:13,940 --> 00:03:23,000
+Dans l'onglet "Table des matières" - bouton: "Personaliser les styles"
+- on va clicker sur " Titre 2", "Titre 3" etc, pour les montrer
+
+26
+00:03:43,680 --> 00:03:52,940
+La table de matières affiche les
+numéros de page que nous pouvons modifier
+
+27
+00:03:53,480 --> 00:04:03,400
+Par example on va inserer un saut de page pour
+modifier le numéro de page du titre "2.2. Obadjiwan"
+
+28
+00:04:10,220 --> 00:04:19,000
+Pour personnaliser l'affichage de la Table
+des matières on pourra cliquer sur "Tabulations"
+
+29
+00:04:20,340 --> 00:04:30,500
+Et après sur "Tirets" on pourra ajouter
+des tirets sur les titres sélectionnés
+
+30
+00:04:42,040 --> 00:04:53,640
+Merci pour votre attention
+
