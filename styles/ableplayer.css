@@ -942,7 +942,7 @@ ul.able-popup {
   padding-right: 5%;
   /* width: 90%; */
   background-color: #FFF;
-  height: 350px;
+  height: 100%;
 }
 .able-transcript div {
   margin: 1em 0;
@@ -1015,7 +1015,7 @@ ul.able-popup {
 }
 .able-window-toolbar .transcript-language-select-wrapper {
   float: right;
-  padding-right: 30px;
+  padding-right: 1px;
 }
 
 /*
@@ -1057,7 +1057,7 @@ ul.able-popup {
   border: 0;
 }
 .able-playlist li button img {
- width: 100px;
+ width: 50px;
  float: left;
  margin-right: 10px;
 }
