@@ -1339,13 +1339,13 @@ div.able-skin-2020 div.able-seekbar-wrapper {
 }
 .icon-next:before {
     content: "\e902";
-}
+/*}
 .icon-slower:before {
     content: "\f0dd";
 }
 .icon-faster:before {
     content: "\f0de";
-/*}
+}
 .icon-turtle:before {
     content: "\e904";
 }
