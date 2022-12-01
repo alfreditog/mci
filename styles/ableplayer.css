@@ -1,37 +1,37 @@
 /*
-  Able Player core styles
+	Able Player core styles
 
-  Default z-index map:
+	Default z-index map:
 
-  * Modal dialog
-  div.able-modal-dialog = 10000
-  div.able-modal-overlay = 9500
+	* Modal dialog
+	div.able-modal-dialog = 10000
+	div.able-modal-overlay = 9500
 
-  * Items that should always be on top (9000):
-  #able-vts = 9400
-  .able-alert = 9400
-  .able-window-toolbar .able-button-handler-preferences = 9300
+	* Items that should always be on top (9000):
+	#able-vts = 9400
+	.able-alert = 9400
+	.able-window-toolbar .able-button-handler-preferences = 9300
   .able-popup = 9200
   .able-volume-head = 9175
   .able-volume-slider = 9150
   .able-tooltip = 9000
 
   * Pop-ups with critical content:  (7000 - 8000):
-  .able-sign-window = 8000
-  .able-transcript-area = 7000
+	.able-sign-window = 8000
+	.able-transcript-area = 7000
 
   * Player controls: (5000 - 6000)
   .able-controller .able-seekbar = 6900
   .able-controller .buttonOff = 6800
   .able-controller div[role="button"] > img = 6700
   .able-controller div[role="button"] > span = 6700
-  .able-controller div[role="button"] = 6600
-  .able-big-play-button = 6500
-  div.able-captions-wrapper = 6000
+	.able-controller div[role="button"] = 6600
+	.able-big-play-button = 6500
+	div.able-captions-wrapper = 6000
   .able-seekbar-head = 5500
   .able-seekbar-played = 5200
-  .able-seekbar-loaded = 5100
-  .able = 5000
+	.able-seekbar-loaded = 5100
+	.able = 5000
 */
 .able-wrapper {
   position: relative;
@@ -65,16 +65,16 @@
   top: 0;
 }
 .able-player {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #262626; /* background color of player (appears on top & bottom) */
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #262626; /* background color of player (appears on top & bottom) */
 }
 .able-offscreen {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
 }
 .able-media-container audio {
   display: none !important;
@@ -82,14 +82,14 @@
 .able-video {
 }
 .able-video .able-now-playing {
-  display: none; /* not currently used for video */
+	display: none; /* not currently used for video */
 }
 .able-controller {
-  position: relative;
-  border-bottom: 1px solid #4c4c4c;
-  background-color: #464646; /* background color of controller bar */
-  min-height: 38px; /* height of button (20px) + 4px border + 4px padding */
-  padding: 0;
+	position: relative;
+	border-bottom: 1px solid #4c4c4c;
+	background-color: #464646; /* background color of controller bar */
+	min-height: 38px; /* height of button (20px) + 4px border + 4px padding */
+	padding: 0;
 }
 .able-poster {
   position: absolute;
@@ -173,8 +173,8 @@
   z-index: 6700;
 }
 .able-controller .buttonOff {
-  opacity: 0.5;
-  filter:alpha(opacity=50); /* for IE */
+	opacity: 0.5;
+	filter:alpha(opacity=50); /* for IE */
   z-index: 6800;
 }
 .able-controller .able-seekbar {
@@ -187,10 +187,10 @@
   outline-width: medium;
 }
 .able-controller div[role="button"]:hover {
-  outline-color: #8AB839 !important; /* green */
+	outline-color: #8AB839 !important; /* green */
 }
 .able-controller div[role="button"]:focus {
-  outline-color: #ffbb37 !important; /* yellow */
+	outline-color: #ffbb37 !important; /* yellow */
 }
 .able-controller button::-moz-focus-inner,
 .able-search-results button::-moz-focus-inner {
@@ -291,7 +291,7 @@
 }
 .able-volume-head:hover,
 .able-volume-head:focus {
-  background-color: #ffbb37 !important; /* yellow */
+	background-color: #ffbb37 !important; /* yellow */
 }
 .able-volume-help { /* not visible; used in aria-describedby */
   display: none;
@@ -388,18 +388,18 @@ input[type=range]:focus::-ms-fill-upper {
 */
 
 .able-status-bar {
-  height: 1.5em;
-  min-height: 1.5em;
-  color: #CCC;
-  font-size: 0.9em;
-  background-color: transparent;
-  padding: 0.5em 0.5em 0.25em;
+	height: 1.5em;
+	min-height: 1.5em;
+	color: #CCC;
+	font-size: 0.9em;
+	background-color: transparent;
+	padding: 0.5em 0.5em 0.25em;
 }
 .able-status-bar span.able-timer {
-  /* contains both span.elapsedTime and span.duration */
-  text-align: left;
-  float: left;
-  width: 32%;
+	/* contains both span.elapsedTime and span.duration */
+	text-align: left;
+	float: left;
+	width: 32%;
 }
 .able-status-bar span.able-speed {
   float: left;
@@ -407,10 +407,10 @@ input[type=range]:focus::-ms-fill-upper {
   text-align: center;
 }
 .able-status {
-  font-style: italic;
-  float: right;
-  width: 32%;
-  text-align :right;
+	font-style: italic;
+	float: right;
+	width: 32%;
+	text-align :right;
 }
 
 /*
@@ -461,18 +461,18 @@ div.able-descriptions {
 */
 
 div.able-now-playing {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.1em;
-  color: #FFFFFF;
-  background-color: transparent;
-  padding: 0.5em 0.5em 1em;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #FFFFFF;
+	background-color: transparent;
+	padding: 0.5em 0.5em 1em;
 }
 div.able-now-playing span {
-  font-size: 0.9em;
+	font-size: 0.9em;
 }
 div.able-now-playing span span {
-  display: block;
+	display: block;
 }
 
 /*
@@ -495,11 +495,11 @@ div.able-modal-dialog {
   z-index: 10000;
 }
 @supports (transform: translate(-50%,-50%)) {
-  div.able-modal-dialog {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%) !important;
-  }
+	div.able-modal-dialog {
+	  top: 50%;
+		left: 50%;
+	  transform: translate(-50%,-50%) !important;
+	}
 }
 
 div.able-modal-overlay {
@@ -532,11 +532,11 @@ div.able-modal-dialog button:focus {
 }
 div.able-modal-dialog input:hover,
 div.able-modal-dialog button:hover {
-  outline-color: #8AB839; /* green */
+	outline-color: #8AB839; /* green */
 }
 div.able-modal-dialog input:focus,
 div.able-modal-dialog button:focus {
-  outline-color: #ffbb37; /* yellow */
+	outline-color: #ffbb37; /* yellow */
 }
 div.able-modal-dialog h1 {
   font-weight: bold;
@@ -549,12 +549,12 @@ div.able-modal-dialog h1 {
 .able-prefs-form,
 .able-help-div,
 .able-resize-form {
-  background-color: #F5F5F5;
-  border: medium solid #ccc;
-  padding: 0.5em 1em;
-  margin: 0 0 0 1em;
-  width: 25em;
-  display: none;
+	background-color: #F5F5F5;
+	border: medium solid #ccc;
+	padding: 0.5em 1em;
+	margin: 0 0 0 1em;
+	width: 25em;
+	display: none;
 }
 
 /*
@@ -564,12 +564,12 @@ div.able-modal-dialog h1 {
 .able-prefs-form fieldset {
   margin-left: 0;
   padding-left: 0;
-  border: none;
+	border: none;
 }
 .able-prefs-form legend {
-  color: black;
-  font-weight: bold;
-  font-size: 1.1em;
+	color: black;
+	font-weight: bold;
+	font-size: 1.1em;
 }
 .able-prefs-form fieldset div {
   display: table;
@@ -577,12 +577,12 @@ div.able-modal-dialog h1 {
 }
 .able-prefs-form fieldset div input {
   display: table-cell;
-  width: 1em;
-  vertical-align: middle;
+	width: 1em;
+	vertical-align: middle;
 }
 .able-prefs-form fieldset div label {
   display: table-cell;
-  padding-left: 0.5em;
+	padding-left: 0.5em;
 }
 fieldset.able-prefs-keys div {
   float: left;
@@ -613,7 +613,7 @@ fieldset.able-prefs-captions select {
   border-radius: none;
 }
 fieldset.able-prefs-descriptions >  div.able-prefs-select { 
-  margin: 0.5em 1em;
+	margin: 0.5em 1em;
 }
 fieldset.able-prefs-descriptions >  div.able-prefs-select > label,
 fieldset.able-prefs-descriptions >  div.able-prefs-slider > label {
@@ -653,7 +653,7 @@ div.able-prefDescPause {
   Keyboard Preferences Dialog
 */
 able-prefs-form-keyboard ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 span.able-modkey-alt,
 span.able-modkey-ctrl,
@@ -719,10 +719,10 @@ span.able-modkey {
   outline-width: medium;
 }
 .able-window-toolbar .able-button-handler-preferences:hover {
-  outline-color: #8AB839 !important; /* green */
+	outline-color: #8AB839 !important; /* green */
 }
 .able-window-toolbar .able-button-handler-preferences:focus {
-  outline-color: #ffbb37 !important; /* yellow */
+	outline-color: #ffbb37 !important; /* yellow */
 }
 .able-window-toolbar .able-popup {
   position: absolute;
@@ -936,7 +936,7 @@ ul.able-popup {
   background-color: #FFF;
 }
 .able-transcript {
-  position: relative; /* must be positioned for scrolling */
+	position: relative; /* must be positioned for scrolling */
   overflow-y: scroll;
   padding-left: 5%;
   padding-right: 5%;
@@ -945,7 +945,7 @@ ul.able-popup {
   height: 100%;
 }
 .able-transcript div {
-  margin: 1em 0;
+	margin: 1em 0;
 }
 .able-transcript-heading {
   font-size: 1.4em;
@@ -956,31 +956,31 @@ ul.able-popup {
   font-weight: bold;
 }
 .able-transcript div.able-transcript-desc {
-  background-color: #FEE;
-  border: thin solid #336;
-  font-style: italic;
-  padding: 1em;
+	background-color: #FEE;
+	border: thin solid #336;
+	font-style: italic;
+	padding: 1em;
 }
 .able-transcript .able-unspoken {
-  font-weight: bold;
+	font-weight: bold;
 }
 .able-transcript .able-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
 }
 .able-highlight {
-  background: #FF6; /* light yellow */
+	background: #FF6; /* light yellow */
 }
 .able-previous {
-  background: black !important;
-  font-style: italic;
+	background: black !important;
+	font-style: italic;
 }
 .able-transcript span:hover,
 .able-transcript span:focus,
 .able-transcript span:active {
-  background: #CF6; /* light green */
-  cursor: pointer;
+	background: #CF6; /* light green */
+	cursor: pointer;
 }
 .able-window-toolbar label {
   margin-right: 10px;
@@ -1004,18 +1004,18 @@ ul.able-popup {
 .able-controller input:focus,
 .able-controller  div[role="button"]:focus,
 .able-seekbar-head:focus {
-  outline-color: #ffbb37; /* yellow */
+	outline-color: #ffbb37; /* yellow */
 }
 .able-window-toolbar input:hover,
 .able-window-toolbar select:hover,
 .able-controller input:hover,
 .able-controller  div[role="button"]:hover,
 .able-seekbar-head:hover {
-  outline-color: #8AB839; /* green */
+	outline-color: #8AB839; /* green */
 }
 .able-window-toolbar .transcript-language-select-wrapper {
   float: right;
-  padding-right: 1px;
+  padding-right: 30px;
 }
 
 /*
@@ -1023,58 +1023,58 @@ ul.able-popup {
 */
 
 .able-playlist {
-  list-style-type: none;
-  margin: 0;
-  background-color: #FFFFFF;
-  padding: 5px 0;
+	list-style-type: none;
+	margin: 0;
+	background-color: #FFFFFF;
+	padding: 5px 0;
 }
 .able-playlist li {
-  background-color: #DDDDDD; /* default background color of each item in playlist */
-  margin: 5px;
-  padding: 0;
+	background-color: #DDDDDD; /* default background color of each item in playlist */
+	margin: 5px;
+	padding: 0;
   border: 2px solid #AAA;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
 }
 .able-playlist li button {
-  border: none;
-  color: #000000;
-  background-color: transparent;
-  font-size: 1em;
-  width: 100%;
-  padding: 5px 10px;
-  text-align: left;
+	border: none;
+	color: #000000;
+	background-color: transparent;
+	font-size: 1em;
+	width: 100%;
+	padding: 5px 10px;
+	text-align: left;
 }
 .able-playlist li button:hover,
 .able-playlist li button:focus,
 .able-playlist li button:active { /* playlist items when they have mouse or keyboard focus */
-  background-color: #FFEEB3;
-  color: #000000;
-  text-decoration: none;
-  outline: none;
+	background-color: #FFEEB3;
+	color: #000000;
+	text-decoration: none;
+	outline: none;
 }
 .able-playlist li button::-moz-focus-inner {
   border: 0;
 }
 .able-playlist li button img {
- width: 50px;
+ width: 100px;
  float: left;
  margin-right: 10px;
 }
 .able-playlist li.able-current { /* currently selected playlist item */
-  background-color: #340449;
-  border-color: #230330;
+	background-color: #340449;
+	border-color: #230330;
 }
 .able-playlist li.able-current button {
-  color: #FFFFFF;
-  font-weight: bold;
-  text-decoration: none;
-  outline: none;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	outline: none;
 }
 .able-playlist li.able-current button:hover,
 .able-playlist li.able-current button:focus,
 .able-playlist li.able-current button:active   {
-  color: #000000;
+	color: #000000;
 }
 
 /*
@@ -1104,8 +1104,8 @@ button.able-search-results-time:active {
   padding-left: 1em;
 }
 .able-search-term {
-  background-color: #FFC;
-  font-weight: bold;
+	background-color: #FFC;
+	font-weight: bold;
 }
   #search-term {
     font-weight: bold;
@@ -1117,11 +1117,11 @@ button.able-search-results-time:active {
   Video Transcript Sorter (VTS)
 */
 #able-vts-instructions {
-  margin-bottom: 1.5em;
-  padding: 1em;
-  border: 1px solid #999;
-  width: 720px;
-  max-width: 90%;
+	margin-bottom: 1.5em;
+	padding: 1em;
+	border: 1px solid #999;
+	width: 720px;
+	max-width: 90%;
 }
 #able-vts fieldset {
   margin: 1em;
@@ -1193,11 +1193,11 @@ div#able-vts-alert {
   z-index: 9400;
 }
 button#able-vts-save {
-  font-size: 1em;
-  padding: 0.25em;
-  border-radius: 5px;
-  margin-bottom: 1em;
-  font-weight: bold;
+	font-size: 1em;
+	padding: 0.25em;
+	border-radius: 5px;
+	margin-bottom: 1em;
+	font-weight: bold;
 }
 button#able-vts-save:hover,
 button#able-vts-save:focus {
@@ -1205,13 +1205,13 @@ button#able-vts-save:focus {
   background-color: #060;
 }
 .able-vts-output-instructions {
-  width: 720px;
-  max-width: 90%;
+	width: 720px;
+	max-width: 90%;
 }
 #able-vts textarea {
-  height: 200px;
-  width: 720px;
-  max-width: 90%;
+	height: 200px;
+	width: 720px;
+	max-width: 90%;
 }
 
 /*
@@ -1219,22 +1219,22 @@ button#able-vts-save:focus {
 */
 
 .able-clipped, .able-screenreader-alert {
-  /* hide from sighted users, but not screen reader users */
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  /* additional rules are needed to ensure clipped buttons are truly invisible in Safari on Mac OS X */
+	/* hide from sighted users, but not screen reader users */
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	/* additional rules are needed to ensure clipped buttons are truly invisible in Safari on Mac OS X */
   width: 1px !important;
   height: 1px !important;
   overflow: hidden !important;
 }
 .able-error {
-  display: block;
-  background: #ffc;
-  border: 2px solid #000;
-  color: #FF0000;
-  margin: 0.75em;
-  padding: 0.5em;
+	display: block;
+	background: #ffc;
+	border: 2px solid #000;
+	color: #FF0000;
+	margin: 0.75em;
+	padding: 0.5em;
 }
 .able-fallback {
   display: block;
@@ -1273,10 +1273,10 @@ button#able-vts-save:focus {
 .able-modal-dialog div[role="button"] svg,
 .able-wrapper button svg,
 .able-modal-dialog button svg {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  fill: currentColor;
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
 }
 
 /*
@@ -1345,12 +1345,12 @@ div.able-skin-2020 div.able-seekbar-wrapper {
 }
 .icon-faster:before {
     content: "\f0de";
-}
+/*}
 .icon-turtle:before {
     content: "\e904";
 }
 .icon-rabbit:before {
-    content: "\e905";
+    content: "\e905";*/
 }
 .icon-ellipsis:before {
     content: "\e903";
